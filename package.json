@@ -1,0 +1,19 @@
+{
+  "name": "sastha-infinite-business-system",
+  "version": "2.7.0",
+  "private": true,
+  "description": "Sastha Infinite business management system with professional invoice and job sheet PDF templates",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "pdfkit": "^0.16.0",
+    "nodemailer": "^6.10.1"
+  }
+}
