@@ -1,0 +1,19 @@
+{
+  "name": "sastha-infinite-business-system",
+  "version": "2.8.0",
+  "private": true,
+  "description": "Advanced Sastha Infinite business system with persistent SQLite storage, vendor directory, purchase orders, responsive UI, branded PDF generation and email delivery",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "pdfkit": "^0.16.0",
+    "nodemailer": "^6.10.1"
+  }
+}
